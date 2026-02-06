@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>demo-app</finalName> <!-- when maven package will be done ,this will be the name given to jar file which will be used by docker -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

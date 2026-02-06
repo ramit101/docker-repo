@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-jdk-slim
 COPY target/demo-app.jar /usr/app
 WORKDIR /usr/app
 EXPOSE 8080

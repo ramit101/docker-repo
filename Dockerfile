@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:25
 COPY target/demo-app.jar /usr/app
 WORKDIR /usr/app
 EXPOSE 8080
